@@ -1,0 +1,118 @@
+[
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1548674815.000200",
+        "user": "U5TCAFTD3",
+        "text": "<@U5TCAFTD3> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1548674816.000300",
+        "user": "U5TCAFTD3",
+        "text": "<@U5TCAFTD3> set the channel purpose: Randomly get paired with other interesting people from this Slack",
+        "purpose": "Randomly get paired with other interesting people from this Slack",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UD6EXQVM0"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1548674824.000500",
+        "user": "UFQ0XSFH6",
+        "text": "<@UFQ0XSFH6> has joined the channel",
+        "inviter": "U5TCAFTD3"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1548675165.000700",
+        "user": "UCKRZS3DZ",
+        "text": "<@UCKRZS3DZ> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1548675461.001000",
+        "user": "UF5PAGQQ4",
+        "text": "<@UF5PAGQQ4> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1548676374.001300",
+        "user": "UAL7940NM",
+        "text": "<@UAL7940NM> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1548676530.001600",
+        "user": "UFD2JRE58",
+        "text": "<@UFD2JRE58> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1548676992.001900",
+        "user": "UF3V37GCE",
+        "text": "<@UF3V37GCE> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1548677867.002200",
+        "user": "UAZT04VT4",
+        "text": "<@UAZT04VT4> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1548679763.002500",
+        "user": "UF06DRY1X",
+        "text": "<@UF06DRY1X> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1548682474.002800",
+        "user": "UEGFXUK3M",
+        "text": "<@UEGFXUK3M> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1548693172.003100",
+        "user": "UFFHBL3PU",
+        "text": "<@UFFHBL3PU> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1548694680.003400",
+        "user": "UD43R8ZFV",
+        "text": "<@UD43R8ZFV> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1548703300.003700",
+        "user": "UF0770MK2",
+        "text": "<@UF0770MK2> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1548722110.000200",
+        "user": "UD3AK9JRF",
+        "text": "<@UD3AK9JRF> has joined the channel"
+    }
+]

@@ -1,0 +1,1376 @@
+[
+    {
+        "client_msg_id": "2BB386EF-01A4-4FD8-989B-DF54752A7F3E",
+        "type": "message",
+        "text": "Here’s my cognitive-science-hobbyist theory of what’s the problem with node-link languages:\n\nNode-link makes effective use of the link image schema (<https:\/\/en.m.wikipedia.org\/wiki\/Image_schema|https:\/\/en.m.wikipedia.org\/wiki\/Image_schema>). Such schemas are universal patterns that structure our thinking on the lowest levels. These patterns also provide the infrastructure for spoken and written language as well, so they sit both under visual and text-based languages. (If “sitting under” makes sense to you in that previous sentence, that’s because it’s an example for a spatial metaphor build on top of image schemas.)\n\nNode-link languages work well, because they hook into that particular link pattern which we all intuitively understand. That’s where their power comes from. Unfortunately, one pattern isn’t enough to model everything. However, it’s great when it’s almost all you need in the domain you are modeling for.\n\nSome node-link languages add a second image schema by allowing containment. The container schema is also why files and folders and directory structures are so pervasive. That’s a little more expressive, but two patterns are still not enough to model all the complex things general programming languages can.\n\nWhere node-link languages break down is: they usually offer no solution to the problem of anchoring things to locations. It usually doesn’t matter where you put nodes on an often infinite canvas. Location has no meaning, like it does in a map, or a scatter plot, where each dot is precisely tied to a location. \n\nWhile placing things arbitrarily on a canvas sounds positive like flexibility and freedom, it creates cognitive effort because we will quickly feel overwhelmed placing large number of objects in a space without any supporting structure. So we invent that structure on the fly, trying something like ordering nodes by data flow, which works well enough for when you’re just modeling how data flows through a number of filters and transformers. But often we end up with conflicting structures. That’s when we start talking about how it all looks like spaghettis.\n\nFor some reason media apps are good at taking advantage of image schemas and metaphorical structuring, which I believe is all happy accidents simply because these patterns are how we think and when designing UI we gravitate towards them even if we don’t know why. \n\nThink waveform visualizations in audio recording software or MIDI notes. X-axis is often bound to time giving position meaning — the same reason why charts and diagrams are often easier to grasp: image schemas giving rise to powerful spatial metaphors.\n\nThat media apps seem to discover these schemas is less of a coincidence and connected to how we understand media as events spread across time (yep, guess what’s the basis for that…). In general programming we think much more abstract and have many completely incompatible orderings at the same time, e.g. data flow with concurrency, static type hierarchies, hierarchical stack frames, sequential memory — it’s easy to visualize each one of them at a time, but it’s essentially just different views on the same system.\n\nI firmly believe that we can deliberately take advantage of this particular knowledge in cognitive science in UI design and ultimately for designing better “visual” languages. If you see any research that’s combining these fields, please send it my way. And if you want to learn more about the cognitive science parts feel free to contact me. I’m happy to provide plenty of pointers to resources I can recommend.",
+        "user": "U5STGTB3J",
+        "ts": "1594110059.440000",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "649181907e06",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-08-20\/228447816352_649181907e06ec450c64_72.jpg",
+            "first_name": "Stefan",
+            "real_name": "Stefan Lesser",
+            "display_name": "Stefan",
+            "team": "T5TCAFTA9",
+            "name": "stefanlesser",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U5STGTB3J",
+            "ts": "1594110552.000000"
+        },
+        "attachments": [
+            {
+                "image_url": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/2\/2d\/ContainmentSchema.png",
+                "image_width": 400,
+                "image_height": 360,
+                "image_bytes": 9675,
+                "title": "Image schema",
+                "title_link": "https:\/\/en.m.wikipedia.org\/wiki\/Image_schema",
+                "from_url": "https:\/\/en.m.wikipedia.org\/wiki\/Image_schema",
+                "author_name": "Wikipedia",
+                "author_link": "https:\/\/en.wikipedia.org\/",
+                "text": "An image schema is a recurring structure within our cognitive processes which establishes patterns of understanding and reasoning. Image schemas are formed from our bodily interactions, from linguistic experience, and from historical context. The term is explained in Mark Johnson's book The Body in the Mind; in case study 2 of George Lakoff's Women, Fire and Dangerous Things; by Rudolf Arnheim in Visual Thinking; and more recently, by Tim Rohrer's 2006 book chapter \"Image Schemata in the Brain\".\nIn contemporary cognitive linguistics, an image schema is considered an embodied prelinguistic structure of experience that motivates conceptual metaphor mappings. Evidence for image schemas (also called image schemata) is drawn from a number of related disciplines, including work on cross-modal cognition in psychology, from spatial cognition in both linguistics and psychology, cognitive linguistics, and from neuroscience.",
+                "fallback": "wikipedia: Image schema",
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/wikipedia.png",
+                "id": 1,
+                "original_url": "https:\/\/en.m.wikipedia.org\/wiki\/Image_schema"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1Itdy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Here’s my cognitive-science-hobbyist theory of what’s the problem with node-link languages:\n\nNode-link makes effective use of the link image schema ("
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/en.m.wikipedia.org\/wiki\/Image_schema",
+                                "text": "https:\/\/en.m.wikipedia.org\/wiki\/Image_schema"
+                            },
+                            {
+                                "type": "text",
+                                "text": "). Such schemas are universal patterns that structure our thinking on the lowest levels. These patterns also provide the infrastructure for spoken and written language as well, so they sit both under visual and text-based languages. (If “sitting under” makes sense to you in that previous sentence, that’s because it’s an example for a spatial metaphor build on top of image schemas.)\n\nNode-link languages work well, because they hook into that particular link pattern which we all intuitively understand. That’s where their power comes from. Unfortunately, one pattern isn’t enough to model everything. However, it’s great when it’s almost all you need in the domain you are modeling for.\n\nSome node-link languages add a second image schema by allowing containment. The container schema is also why files and folders and directory structures are so pervasive. That’s a little more expressive, but two patterns are still not enough to model all the complex things general programming languages can.\n\nWhere node-link languages break down is: they usually offer no solution to the problem of anchoring things to locations. It usually doesn’t matter where you put nodes on an often infinite canvas. Location has no meaning, like it does in a map, or a scatter plot, where each dot is precisely tied to a location. \n\nWhile placing things arbitrarily on a canvas sounds positive like flexibility and freedom, it creates cognitive effort because we will quickly feel overwhelmed placing large number of objects in a space without any supporting structure. So we invent that structure on the fly, trying something like ordering nodes by data flow, which works well enough for when you’re just modeling how data flows through a number of filters and transformers. But often we end up with conflicting structures. That’s when we start talking about how it all looks like spaghettis.\n\nFor some reason media apps are good at taking advantage of image schemas and metaphorical structuring, which I believe is all happy accidents simply because these patterns are how we think and when designing UI we gravitate towards them even if we don’t know why. \n\nThink waveform visualizations in audio recording software or MIDI notes. X-axis is often bound to time giving position meaning — the same reason why charts and diagrams are often easier to grasp: image schemas giving rise to powerful spatial metaphors.\n\nThat media apps seem to discover these schemas is less of a coincidence and connected to how we understand media as events spread across time (yep, guess what’s the basis for that…). In general programming we think much more abstract and have many completely incompatible orderings at the same time, e.g. data flow with concurrency, static type hierarchies, hierarchical stack frames, sequential memory — it’s easy to visualize each one of them at a time, but it’s essentially just different views on the same system.\n\nI firmly believe that we can deliberately take advantage of this particular knowledge in cognitive science in UI design and ultimately for designing better “visual” languages. If you see any research that’s combining these fields, please send it my way. And if you want to learn more about the cognitive science parts feel free to contact me. I’m happy to provide plenty of pointers to resources I can recommend."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1594060589.389400",
+        "parent_user_id": "U016LEA3J1H",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UJ6LDMMN0",
+                    "US370TRJA",
+                    "UHWC9PXBL"
+                ],
+                "count": 3
+            },
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "UJ6LDMMN0",
+                    "US370TRJA"
+                ],
+                "count": 2
+            },
+            {
+                "name": "heart",
+                "users": [
+                    "UCUSW7WVD"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ed47892b-2757-4498-894f-ed3afecd22a0",
+        "type": "message",
+        "text": "```Interface matters to me more than anything else, and it always has. I just never realized that. I've spent a lot of time over the years desperately trying to think of a \"thing\" to change the world. I now know why the search was fruitless -- things don't change the world. People change the world by using things. The focus must be on the \"using\", not the \"thing\". Now that I'm looking through the right end of the binoculars, I can see a lot more clearly, and there are projects and possibilities that genuinely interest me deeply.```\n-- <http:\/\/worrydream.com\/quotes\/#bret-victor-email|worrydream.com\/quotes\/#bret-victor-email>",
+        "user": "UBN9AFS0N",
+        "ts": "1594125940.441100",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "7f0f1c0238ec",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-07-09\/395086754178_7f0f1c0238ec02befdab_72.jpg",
+            "first_name": "Mariano",
+            "real_name": "Mariano Guerra",
+            "display_name": "",
+            "team": "T5TCAFTA9",
+            "name": "mariano",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UBN9AFS0N",
+            "ts": "1594128109.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ywx",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Interface matters to me more than anything else, and it always has. I just never realized that. I've spent a lot of time over the years desperately trying to think of a \"thing\" to change the world. I now know why the search was fruitless -- things don't change the world. People change the world by using things. The focus must be on the \"using\", not the \"thing\". Now that I'm looking through the right end of the binoculars, I can see a lot more clearly, and there are projects and possibilities that genuinely interest me deeply."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n-- "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/worrydream.com\/quotes\/#bret-victor-email",
+                                "text": "worrydream.com\/quotes\/#bret-victor-email"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1594125940.441100",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1594128550.443900",
+        "reply_users": [
+            "U5STGTB3J",
+            "UJKKBAMLL"
+        ],
+        "replies": [
+            {
+                "user": "U5STGTB3J",
+                "ts": "1594127356.442000"
+            },
+            {
+                "user": "UJKKBAMLL",
+                "ts": "1594128550.443900"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "heart",
+                "users": [
+                    "U5STGTB3J",
+                    "U013ZLJARC7",
+                    "UHWC9PXBL"
+                ],
+                "count": 3
+            },
+            {
+                "name": "100",
+                "users": [
+                    "UC2A2ARPT",
+                    "UUQ2EQW21"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "300F503A-6FCE-45A4-B010-67DFFC32EDCF",
+        "type": "message",
+        "text": "As the link is not clickable and the whole collection of quotes is worthwhile reading: <http:\/\/worrydream.com\/quotes\/|http:\/\/worrydream.com\/quotes\/>",
+        "user": "U5STGTB3J",
+        "ts": "1594127356.442000",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "649181907e06",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-08-20\/228447816352_649181907e06ec450c64_72.jpg",
+            "first_name": "Stefan",
+            "real_name": "Stefan Lesser",
+            "display_name": "Stefan",
+            "team": "T5TCAFTA9",
+            "name": "stefanlesser",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "cRJ\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "As the link is not clickable and the whole collection of quotes is worthwhile reading: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/worrydream.com\/quotes\/",
+                                "text": "http:\/\/worrydream.com\/quotes\/"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1594125940.441100",
+        "parent_user_id": "UBN9AFS0N"
+    },
+    {
+        "client_msg_id": "e1532bba-88d1-479a-bde9-b2a35bf954e2",
+        "type": "message",
+        "text": "Interface is everything — the foundation of a product where all other decisions are made upon.",
+        "user": "UJKKBAMLL",
+        "ts": "1594128550.443900",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "6b9db1f76eed",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-06-12\/662675221668_6b9db1f76eed746965ca_72.jpg",
+            "first_name": "Steve",
+            "real_name": "Steve Peak",
+            "display_name": "Steve",
+            "team": "T5TCAFTA9",
+            "name": "steve727",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "JG\/9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Interface is everything — the foundation of a product where all other decisions are made upon."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1594125940.441100",
+        "parent_user_id": "UBN9AFS0N"
+    },
+    {
+        "client_msg_id": "F2716ECF-5099-4E48-BE8C-CB28E3BE30F7",
+        "type": "message",
+        "text": "When you are beyond the prototyping stage and start to put together an early version of something you intend to use yourself extensively and probably also give to a small number of people to try out, what are the measures you take and practices you follow to make that a great experience? For instance, what do you do to make sure data isn‘t reset or lost between updates or can be migrated easily?",
+        "user": "U5STGTB3J",
+        "ts": "1594129616.447900",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "649181907e06",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-08-20\/228447816352_649181907e06ec450c64_72.jpg",
+            "first_name": "Stefan",
+            "real_name": "Stefan Lesser",
+            "display_name": "Stefan",
+            "team": "T5TCAFTA9",
+            "name": "stefanlesser",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "bd\/WV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "When you are beyond the prototyping stage and start to put together an early version of something you intend to use yourself extensively and probably also give to a small number of people to try out, what are the measures you take and practices you follow to make that a great experience? For instance, what do you do to make sure data isn‘t reset or lost between updates or can be migrated easily?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1594129616.447900",
+        "reply_count": 8,
+        "reply_users_count": 3,
+        "latest_reply": "1594134327.485800",
+        "reply_users": [
+            "UBN9AFS0N",
+            "UJKKBAMLL",
+            "U5STGTB3J"
+        ],
+        "replies": [
+            {
+                "user": "UBN9AFS0N",
+                "ts": "1594129972.448300"
+            },
+            {
+                "user": "UJKKBAMLL",
+                "ts": "1594130179.448500"
+            },
+            {
+                "user": "U5STGTB3J",
+                "ts": "1594131459.454300"
+            },
+            {
+                "user": "UJKKBAMLL",
+                "ts": "1594131653.454500"
+            },
+            {
+                "user": "U5STGTB3J",
+                "ts": "1594133113.479200"
+            },
+            {
+                "user": "UJKKBAMLL",
+                "ts": "1594133324.482100"
+            },
+            {
+                "user": "UBN9AFS0N",
+                "ts": "1594134162.485300"
+            },
+            {
+                "user": "UBN9AFS0N",
+                "ts": "1594134327.485800"
+            }
+        ],
+        "subscribed": false
+    },
+    {
+        "client_msg_id": "c261f52d-0cbf-44a6-8882-963b7e8419b8",
+        "type": "message",
+        "text": "I usually pick 3 use cases that are close to real problems, add some helpers to make them easier to try, implement export\/import, with export\/import I implement templeate loading with a few clicks, later persistence and an easy way to \"continue where you left off\". Regarding migrations, in the early stage I assume and communicate that I will break backwards compatibility periodically, at some point I decide that the serialization format should be stable and start taking backward compatibility seriously.",
+        "user": "UBN9AFS0N",
+        "ts": "1594129972.448300",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "7f0f1c0238ec",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-07-09\/395086754178_7f0f1c0238ec02befdab_72.jpg",
+            "first_name": "Mariano",
+            "real_name": "Mariano Guerra",
+            "display_name": "",
+            "team": "T5TCAFTA9",
+            "name": "mariano",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "XM8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I usually pick 3 use cases that are close to real problems, add some helpers to make them easier to try, implement export\/import, with export\/import I implement templeate loading with a few clicks, later persistence and an easy way to \"continue where you left off\". Regarding migrations, in the early stage I assume and communicate that I will break backwards compatibility periodically, at some point I decide that the serialization format should be stable and start taking backward compatibility seriously."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1594129616.447900",
+        "parent_user_id": "U5STGTB3J"
+    },
+    {
+        "client_msg_id": "9144b489-3246-4e94-8a89-3d04bacbf09b",
+        "type": "message",
+        "text": "These questions, IMO, are different stages of a product. I’ve personally had and seen (even very recently) examples of not focusing on the root issues in the product. Knowing your customer, what behaviors they have, and what behaviors you want to bring to them is instrumental. You should prototype to get learnings, not data. Data will skew your insights because it’s easy to misinterpret it or have a bias looking at the data you want to see and not the data you should be seeing. Forget the data — focus on UX.",
+        "user": "UJKKBAMLL",
+        "ts": "1594130179.448500",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "6b9db1f76eed",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-06-12\/662675221668_6b9db1f76eed746965ca_72.jpg",
+            "first_name": "Steve",
+            "real_name": "Steve Peak",
+            "display_name": "Steve",
+            "team": "T5TCAFTA9",
+            "name": "steve727",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rhcJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "These questions, IMO, are different stages of a product. I’ve personally had and seen (even very recently) examples of not focusing on the root issues in the product. Knowing your customer, what behaviors they have, and what behaviors you want to bring to them is instrumental. You should prototype to get learnings, not data. Data will skew your insights because it’s easy to misinterpret it or have a bias looking at the data you want to see and not the data you should be seeing. Forget the data — focus on UX."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1594129616.447900",
+        "parent_user_id": "U5STGTB3J"
+    },
+    {
+        "client_msg_id": "489f162c-12ac-413c-8571-b5923e235a86",
+        "type": "message",
+        "text": "I was wondering was this discussed here before? ( I couldn't find it via search?)",
+        "user": "UJFN50C00",
+        "ts": "1594131291.451200",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "e35958b94f07",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-06\/616300651267_e35958b94f07da17cf17_72.png",
+            "first_name": "Andreas",
+            "real_name": "Andreas S.",
+            "display_name": "curious_reader",
+            "team": "T5TCAFTA9",
+            "name": "andreas.scheinert",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uIL1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I was wondering was this discussed here before? ( I couldn't find it via search?)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "bf9a184a-d2de-4c5c-b213-465bfe8debc7",
+        "type": "message",
+        "text": "<https:\/\/twitter.com\/jasonyuandesign\/status\/1133429180362821632?s=20>",
+        "user": "UJFN50C00",
+        "ts": "1594131292.451400",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "e35958b94f07",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-06\/616300651267_e35958b94f07da17cf17_72.png",
+            "first_name": "Andreas",
+            "real_name": "Andreas S.",
+            "display_name": "curious_reader",
+            "team": "T5TCAFTA9",
+            "name": "andreas.scheinert",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "fallback": "<https:\/\/twitter.com\/jasonyuandesign|@jasonyuandesign>: Introducing Mercury OS: A speculative vision of the operating system, driven by humane design principles. \n<https:\/\/medium.com\/@jasonyuan\/introducing-mercury-os-f4de45a04289>",
+                "ts": 1559065549,
+                "author_name": "Jason Yuan",
+                "author_link": "https:\/\/twitter.com\/jasonyuandesign\/status\/1133429180362821632",
+                "author_icon": "https:\/\/pbs.twimg.com\/profile_images\/1251690094232129536\/a1U-XH2T_normal.jpg",
+                "author_subname": "@jasonyuandesign",
+                "text": "Introducing Mercury OS: A speculative vision of the operating system, driven by humane design principles. \n<https:\/\/medium.com\/@jasonyuan\/introducing-mercury-os-f4de45a04289>",
+                "service_name": "twitter",
+                "service_url": "https:\/\/twitter.com\/",
+                "from_url": "https:\/\/twitter.com\/jasonyuandesign\/status\/1133429180362821632?s=20",
+                "id": 1,
+                "original_url": "https:\/\/twitter.com\/jasonyuandesign\/status\/1133429180362821632?s=20",
+                "footer": "Twitter",
+                "footer_icon": "https:\/\/a.slack-edge.com\/80588\/img\/services\/twitter_pixel_snapped_32.png"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9PSG",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/twitter.com\/jasonyuandesign\/status\/1133429180362821632?s=20"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1594131292.451400",
+        "reply_count": 5,
+        "reply_users_count": 3,
+        "latest_reply": "1594133204.479500",
+        "reply_users": [
+            "UAL7940NM",
+            "UJKKBAMLL",
+            "UPVBV34EL"
+        ],
+        "replies": [
+            {
+                "user": "UAL7940NM",
+                "ts": "1594132078.458600"
+            },
+            {
+                "user": "UJKKBAMLL",
+                "ts": "1594132387.462000"
+            },
+            {
+                "user": "UJKKBAMLL",
+                "ts": "1594132449.463200"
+            },
+            {
+                "user": "UPVBV34EL",
+                "ts": "1594133077.478600"
+            },
+            {
+                "user": "UPVBV34EL",
+                "ts": "1594133204.479500"
+            }
+        ],
+        "subscribed": false
+    },
+    {
+        "client_msg_id": "4C4940EC-740B-45D6-8A01-11810DF4F34F",
+        "type": "message",
+        "text": "<@UJKKBAMLL> Not sure if I explained that well enough: by „data“ I mean the data users put in to use the software. Think of a note taking app where you put in your notes. You won‘t get any value out of it, if you don‘t trust that you‘ll be able to get your data back out or it‘ll be corrupted by the next update and you have to start over. So I‘m mostly concerned about the user experience. It seems you interpreted this differently?",
+        "user": "U5STGTB3J",
+        "ts": "1594131459.454300",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "649181907e06",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-08-20\/228447816352_649181907e06ec450c64_72.jpg",
+            "first_name": "Stefan",
+            "real_name": "Stefan Lesser",
+            "display_name": "Stefan",
+            "team": "T5TCAFTA9",
+            "name": "stefanlesser",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "GMOlM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJKKBAMLL"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Not sure if I explained that well enough: by „data“ I mean the data users put in to use the software. Think of a note taking app where you put in your notes. You won‘t get any value out of it, if you don‘t trust that you‘ll be able to get your data back out or it‘ll be corrupted by the next update and you have to start over. So I‘m mostly concerned about the user experience. It seems you interpreted this differently?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1594129616.447900",
+        "parent_user_id": "U5STGTB3J"
+    },
+    {
+        "client_msg_id": "f8a799c0-6161-42d1-b658-f98ede18e960",
+        "type": "message",
+        "text": "What are you optimizing for? It sounds like scaling, uptime, and trust. If I were to create a novel approach to taking notes I would not advertise to my initial test users anything suggesting the information they enter will be saved; in fact I would explicitly tell them that anything they enter could be lost at any point during these initial prototypes as we are optimizing for learning user behaviors.",
+        "user": "UJKKBAMLL",
+        "ts": "1594131653.454500",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "6b9db1f76eed",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-06-12\/662675221668_6b9db1f76eed746965ca_72.jpg",
+            "first_name": "Steve",
+            "real_name": "Steve Peak",
+            "display_name": "Steve",
+            "team": "T5TCAFTA9",
+            "name": "steve727",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Oay",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "What are you optimizing for? It sounds like scaling, uptime, and trust. If I were to create a novel approach to taking notes I would not advertise to my initial test users anything suggesting the information they enter will be saved; in fact I would explicitly tell them that anything they enter could be lost at any point during these initial prototypes as we are optimizing for learning user behaviors."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1594129616.447900",
+        "parent_user_id": "U5STGTB3J"
+    },
+    {
+        "client_msg_id": "92d00273-507e-4fe8-97a4-62b3e685233d",
+        "type": "message",
+        "text": "I'm pretty sure this was discussed here when it first appeared, but I can't find it in the archives either.",
+        "user": "UAL7940NM",
+        "ts": "1594132078.458600",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "43873346f949",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-07-13\/399377633206_43873346f949174e340e_72.jpg",
+            "first_name": "Felix",
+            "real_name": "Felix Kohlgrüber",
+            "display_name": "Felix Kohlgrüber",
+            "team": "T5TCAFTA9",
+            "name": "felix.kohlgrueber",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8ZPcs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I'm pretty sure this was discussed here when it first appeared, but I can't find it in the archives either."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1594131292.451400",
+        "parent_user_id": "UJFN50C00"
+    },
+    {
+        "client_msg_id": "1ebfabbe-e7fc-4ecd-8dd8-9406510a6c7e",
+        "type": "message",
+        "text": "Thanks for sharing! My initial impression, if I may share unfiltered, is that it feels very iOS to me — in good ways. If I were a gambler, I would bet that Apple’s MacOS will start to aim more into this direction over time. The success of iPadOS and iOS has shifted the landscape; it would not shock me at all to see MacOS look more like iPadOS.",
+        "user": "UJKKBAMLL",
+        "ts": "1594132387.462000",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "6b9db1f76eed",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-06-12\/662675221668_6b9db1f76eed746965ca_72.jpg",
+            "first_name": "Steve",
+            "real_name": "Steve Peak",
+            "display_name": "Steve",
+            "team": "T5TCAFTA9",
+            "name": "steve727",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "MJnZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Thanks for sharing! My initial impression, if I may share unfiltered, is that it feels very iOS to me — in good ways. If I were a gambler, I would bet that Apple’s MacOS will start to aim more into this direction over time. The success of iPadOS and iOS has shifted the landscape; it would not shock me at all to see MacOS look more like iPadOS."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1594131292.451400",
+        "parent_user_id": "UJFN50C00"
+    },
+    {
+        "client_msg_id": "47bc953b-ef3f-4c85-958f-7f9046536a5c",
+        "type": "message",
+        "text": "Ha! Jason worked at Apple… shocker :wink:",
+        "user": "UJKKBAMLL",
+        "ts": "1594132449.463200",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "6b9db1f76eed",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-06-12\/662675221668_6b9db1f76eed746965ca_72.jpg",
+            "first_name": "Steve",
+            "real_name": "Steve Peak",
+            "display_name": "Steve",
+            "team": "T5TCAFTA9",
+            "name": "steve727",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fX7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ha! Jason worked at Apple… shocker "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "wink"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1594131292.451400",
+        "parent_user_id": "UJFN50C00"
+    },
+    {
+        "client_msg_id": "5a157c10-f882-495b-8345-4ee87d6d8bbc",
+        "type": "message",
+        "text": "Totally agree <@UJKKBAMLL>",
+        "user": "UPVBV34EL",
+        "ts": "1594133077.478600",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "259a1e56ad2e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-10-28\/811814014976_259a1e56ad2e11fe3d56_72.jpg",
+            "first_name": "",
+            "real_name": "Shubhadeep Roychowdhury",
+            "display_name": "Shubhadeep Roychowdhury",
+            "team": "T5TCAFTA9",
+            "name": "shubhadeeproychowdhur",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1Dh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Totally agree "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "UJKKBAMLL"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1594131292.451400",
+        "parent_user_id": "UJFN50C00"
+    },
+    {
+        "client_msg_id": "239EB444-954F-4854-B3DF-B2A07CE0DC68",
+        "type": "message",
+        "text": "my sketchy thoughts:\n• node and wire diagrams tend to prioritize a bunch of things but very rarely have clear points of view on visual hierarchy (in the graphic design sense). so it’s hard to see which 1-4 things are of primary interest when looking at an expansive diagram\n• they don’t tend to have super-robust notions of focusing in on a particular eg function or object. i think there’s a lot of available blue ocean space for tools that let you filter down to a compact representation of what you’re working on and its immediate dependencies\n• visual display of data structures: node and wire diagrams tend to do a lot for visualizing where data comes from but not a lot for what your data is shaped like or what operations are available for that data shape. this is particularly weird to me because data formats, whether json or haskell, tend to be pretty visual in ascii-land—containers for stricter or maps represented by {}, or strings with quotes, or even the idea of ordering fluent OOP interfaces where something.operation.secondOperation(arg1, arg2) usually means “take a thing AND THEN do operation AND THEN do second operation and stick these arguments INSIDE second operation”\n• finally you should check out self if you haven’t <https:\/\/youtu.be\/Ox5P7QyL774|https:\/\/youtu.be\/Ox5P7QyL774> and <https:\/\/youtu.be\/3ka4KY7TMTU|https:\/\/youtu.be\/3ka4KY7TMTU>",
+        "user": "UHWC9PXBL",
+        "ts": "1594133080.478900",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "g0d754210ed4",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/10d754210ed4e4706eba3d063cdf99f0.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+            "first_name": "",
+            "real_name": "Garth Goldwater",
+            "display_name": "Garth Goldwater",
+            "team": "T5TCAFTA9",
+            "name": "garth",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "YouTube",
+                "service_url": "https:\/\/www.youtube.com\/",
+                "title": "Self: The Movie;",
+                "title_link": "https:\/\/youtu.be\/Ox5P7QyL774",
+                "author_name": "Jecel Assumpção Jr",
+                "author_link": "https:\/\/www.youtube.com\/channel\/UCrGUwjwhuvI_xpRMkR1zw8Q",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/Ox5P7QyL774\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "fallback": "YouTube Video: Self: The Movie;",
+                "video_html": "<iframe width=\"400\" height=\"300\" src=\"https:\/\/www.youtube.com\/embed\/Ox5P7QyL774?feature=oembed&autoplay=1&iv_load_policy=3\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 300,
+                "from_url": "https:\/\/youtu.be\/Ox5P7QyL774",
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/youtube.png",
+                "id": 1,
+                "original_url": "https:\/\/youtu.be\/Ox5P7QyL774"
+            },
+            {
+                "service_name": "YouTube",
+                "service_url": "https:\/\/www.youtube.com\/",
+                "title": "Self and Self: Whys and Wherefores",
+                "title_link": "https:\/\/youtu.be\/3ka4KY7TMTU",
+                "author_name": "Stanford",
+                "author_link": "https:\/\/www.youtube.com\/user\/StanfordUniversity",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/3ka4KY7TMTU\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "fallback": "YouTube Video: Self and Self: Whys and Wherefores",
+                "video_html": "<iframe width=\"400\" height=\"300\" src=\"https:\/\/www.youtube.com\/embed\/3ka4KY7TMTU?feature=oembed&autoplay=1&iv_load_policy=3\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 300,
+                "from_url": "https:\/\/youtu.be\/3ka4KY7TMTU",
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/youtube.png",
+                "id": 2,
+                "original_url": "https:\/\/youtu.be\/3ka4KY7TMTU"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "pej",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "my sketchy thoughts:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "node and wire diagrams tend to prioritize a bunch of things but very rarely have clear points of view on visual hierarchy (in the graphic design sense). so it’s hard to see which 1-4 things are of primary interest when looking at an expansive diagram"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "they don’t tend to have super-robust notions of focusing in on a particular eg function or object. i think there’s a lot of available blue ocean space for tools that let you filter down to a compact representation of what you’re working on and its immediate dependencies"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "visual display of data structures: node and wire diagrams tend to do a lot for visualizing where data comes from but not a lot for what your data is shaped like or what operations are available for that data shape. this is particularly weird to me because data formats, whether json or haskell, tend to be pretty visual in ascii-land—containers for stricter or maps represented by {}, or strings with quotes, or even the idea of ordering fluent OOP interfaces where something.operation.secondOperation(arg1, arg2) usually means “take a thing AND THEN do operation AND THEN do second operation and stick these arguments INSIDE second operation”"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "finally you should check out self if you haven’t "
+                                    },
+                                    {
+                                        "type": "link",
+                                        "url": "https:\/\/youtu.be\/Ox5P7QyL774",
+                                        "text": "https:\/\/youtu.be\/Ox5P7QyL774"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " and "
+                                    },
+                                    {
+                                        "type": "link",
+                                        "url": "https:\/\/youtu.be\/3ka4KY7TMTU",
+                                        "text": "https:\/\/youtu.be\/3ka4KY7TMTU"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1594060589.389400",
+        "parent_user_id": "U016LEA3J1H"
+    },
+    {
+        "client_msg_id": "4317A030-E992-40D0-8569-B65ABFAC46F6",
+        "type": "message",
+        "text": "<@UJKKBAMLL> Oh, I see where you‘re coming from. I‘m not looking for product \/ startup advice. It‘s not an MVP, and I’m not trying to attract investors. What I‘m doing is still much more research than business.\n\nI was more looking for technical advice and best practices on how to migrate data across changing schemas, or alternative techniques to be able to change significant parts of a system while simultaneously having a small number of people actually using — not just testing — it.",
+        "user": "U5STGTB3J",
+        "ts": "1594133113.479200",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "649181907e06",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-08-20\/228447816352_649181907e06ec450c64_72.jpg",
+            "first_name": "Stefan",
+            "real_name": "Stefan Lesser",
+            "display_name": "Stefan",
+            "team": "T5TCAFTA9",
+            "name": "stefanlesser",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rmNv=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJKKBAMLL"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Oh, I see where you‘re coming from. I‘m not looking for product \/ startup advice. It‘s not an MVP, and I’m not trying to attract investors. What I‘m doing is still much more research than business.\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "I was more looking for technical advice and best practices on how to migrate data across changing schemas, or alternative techniques to be able to change significant parts of a system while simultaneously having a small number of people actually using — not just testing — it."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1594129616.447900",
+        "parent_user_id": "U5STGTB3J"
+    },
+    {
+        "client_msg_id": "3d756318-885a-4183-a801-61ef8a15235c",
+        "type": "message",
+        "text": "It does feel so much like iOS. the design, the color scheme and all. And I am not really sure exactly what it offers which I can't get in my Debian.",
+        "user": "UPVBV34EL",
+        "ts": "1594133204.479500",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "259a1e56ad2e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-10-28\/811814014976_259a1e56ad2e11fe3d56_72.jpg",
+            "first_name": "",
+            "real_name": "Shubhadeep Roychowdhury",
+            "display_name": "Shubhadeep Roychowdhury",
+            "team": "T5TCAFTA9",
+            "name": "shubhadeeproychowdhur",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "OuX6E",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "It does feel so much like iOS. the design, the color scheme and all. And I am not really sure exactly what it offers which I can't get in my Debian."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1594131292.451400",
+        "parent_user_id": "UJFN50C00"
+    },
+    {
+        "client_msg_id": "94a8b11f-5f73-48ed-9a4c-2e2e1d026a37",
+        "type": "message",
+        "text": "<@U5STGTB3J> gotcha! I’m happy to chat about how to attract investors, it’s something I’ve done before: both attracting and helping others.",
+        "user": "UJKKBAMLL",
+        "ts": "1594133324.482100",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "6b9db1f76eed",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-06-12\/662675221668_6b9db1f76eed746965ca_72.jpg",
+            "first_name": "Steve",
+            "real_name": "Steve Peak",
+            "display_name": "Steve",
+            "team": "T5TCAFTA9",
+            "name": "steve727",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "i=Qfj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U5STGTB3J"
+                            },
+                            {
+                                "type": "text",
+                                "text": " gotcha! I’m happy to chat about how to attract investors, it’s something I’ve done before: both attracting and helping others."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1594129616.447900",
+        "parent_user_id": "U5STGTB3J"
+    },
+    {
+        "type": "message",
+        "subtype": "thread_broadcast",
+        "text": "oh i also forgot one more piece on the visual data structures front: object destructuring and pattern matching suggest to me a super visual way to do a lot of data transformation: if you represent, say, a hash map\/dictionary as a spreadsheet, on one side you have empty cells and on the other you have the object. let users select an empty cell and then click on the field in the object they want to copy over to the empty cell. idk why no ones doing that",
+        "user": "UHWC9PXBL",
+        "ts": "1594133382.483900",
+        "thread_ts": "1594060589.389400",
+        "root": {
+            "client_msg_id": "7ed6b140-f135-4704-90e2-f4499a13b4f9",
+            "type": "message",
+            "text": "Is anyone aware of a good meta-analysis on why node and link based programming has only found limited success? lookin' to learn more",
+            "user": "U016LEA3J1H",
+            "ts": "1594060589.389400",
+            "team": "T5TCAFTA9",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "BOMik",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Is anyone aware of a good meta-analysis on why node and link based programming has only found limited success? lookin' to learn more"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "thread_ts": "1594060589.389400",
+            "reply_count": 26,
+            "reply_users_count": 11,
+            "latest_reply": "1594133462.485000",
+            "reply_users": [
+                "UC2A2ARPT",
+                "U01448TH3PG",
+                "U016LEA3J1H",
+                "UEBG0NPDK",
+                "UJ6LDMMN0",
+                "UKP3B2J5D",
+                "USH01JEDQ",
+                "U6FKVSVCK",
+                "UJN1TAYEQ",
+                "U5STGTB3J",
+                "UHWC9PXBL"
+            ],
+            "subscribed": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "orlP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "oh i also forgot one more piece on the visual data structures front: object destructuring and pattern matching suggest to me a super visual way to do a lot of data transformation: if you represent, say, a hash map\/dictionary as a spreadsheet, on one side you have empty cells and on the other you have the object. let users select an empty cell and then click on the field in the object they want to copy over to the empty cell. idk why no ones doing that"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "client_msg_id": "B0AD28AC-ACEA-4D11-93BD-41ED565A4D01"
+    },
+    {
+        "client_msg_id": "D984ACD7-5472-4755-8E3D-E0275E621536",
+        "type": "message",
+        "text": "apparently slipped my thumb on “also send to #general” when i was editing that message sorry everyone",
+        "user": "UHWC9PXBL",
+        "ts": "1594133462.485000",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "g0d754210ed4",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/10d754210ed4e4706eba3d063cdf99f0.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+            "first_name": "",
+            "real_name": "Garth Goldwater",
+            "display_name": "Garth Goldwater",
+            "team": "T5TCAFTA9",
+            "name": "garth",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "H0kTz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "apparently slipped my thumb on “also send to #general” when i was editing that message sorry everyone"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1594060589.389400",
+        "parent_user_id": "U016LEA3J1H"
+    },
+    {
+        "client_msg_id": "0c09c9c6-b684-46b6-9ee3-a746e8d29e24",
+        "type": "message",
+        "text": "<@U5STGTB3J> my response wasn't right then :slightly_smiling_face: related to migration, I implemented a serialization library that has versioning, so I can register functions that will migrate fron version N to N+1, when I encounter an old version while deserializing I run the migration functions until the last one, tl;dr: migration on read, keep all versions info, this means I can be carrying versions forever if I'm conservative, I will report the experience (hopefully) in a few years :stuck_out_tongue:",
+        "user": "UBN9AFS0N",
+        "ts": "1594134162.485300",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "7f0f1c0238ec",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-07-09\/395086754178_7f0f1c0238ec02befdab_72.jpg",
+            "first_name": "Mariano",
+            "real_name": "Mariano Guerra",
+            "display_name": "",
+            "team": "T5TCAFTA9",
+            "name": "mariano",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "sVM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U5STGTB3J"
+                            },
+                            {
+                                "type": "text",
+                                "text": " my response wasn't right then "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            },
+                            {
+                                "type": "text",
+                                "text": " related to migration, I implemented a serialization library that has versioning, so I can register functions that will migrate fron version N to N+1, when I encounter an old version while deserializing I run the migration functions until the last one, tl;dr: migration on read, keep all versions info, this means I can be carrying versions forever if I'm conservative, I will report the experience (hopefully) in a few years "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "stuck_out_tongue"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1594129616.447900",
+        "parent_user_id": "U5STGTB3J"
+    },
+    {
+        "client_msg_id": "6d7d0cc6-f46a-4b2e-af7c-8edce9198c13",
+        "type": "message",
+        "text": "jq has a pretty big surface, so I'm glad you're shedding light there. At my current job we actually use a homegrown language for JS transformation instead of jq. I normally frown upon that kind of thing, but the implementation is so clean I was ok with it (given the decision was already made): <https:\/\/github.com\/schibsted\/jslt|https:\/\/github.com\/schibsted\/jslt>. It'll never be popular due to the unfortunate naming, hah",
+        "user": "UN57U8V53",
+        "ts": "1594134295.485500",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "3447742b735b",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-09-09\/753296041488_3447742b735b104a7ff2_72.png",
+            "first_name": "",
+            "real_name": "Don Abrams",
+            "display_name": "Don Abrams",
+            "team": "T5TCAFTA9",
+            "name": "donabrams",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UN57U8V53",
+            "ts": "1594134353.000000"
+        },
+        "attachments": [
+            {
+                "fallback": "schibsted\/jslt",
+                "text": "JSON query and transformation language",
+                "title": "schibsted\/jslt",
+                "footer": "<https:\/\/github.com\/schibsted\/jslt|schibsted\/jslt>",
+                "id": 1,
+                "footer_icon": "https:\/\/github.githubassets.com\/favicon.ico",
+                "ts": 1528722697,
+                "color": "24292f",
+                "fields": [
+                    {
+                        "title": "Stars",
+                        "value": "289",
+                        "short": true
+                    },
+                    {
+                        "title": "Language",
+                        "value": "Java",
+                        "short": true
+                    }
+                ],
+                "mrkdwn_in": [
+                    "text",
+                    "fields"
+                ],
+                "bot_id": "B011KHY4N3Y",
+                "app_unfurl_url": "https:\/\/github.com\/schibsted\/jslt",
+                "is_app_unfurl": true
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tbR4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "jq has a pretty big surface, so I'm glad you're shedding light there. At my current job we actually use a homegrown language for JS transformation instead of jq. I normally frown upon that kind of thing, but the implementation is so clean I was ok with it (given the decision was already made): "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/schibsted\/jslt",
+                                "text": "https:\/\/github.com\/schibsted\/jslt"
+                            },
+                            {
+                                "type": "text",
+                                "text": ". It'll never be popular due to the unfortunate naming, hah"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1593638175.102900",
+        "parent_user_id": "UL5AX4G2H"
+    },
+    {
+        "client_msg_id": "f9166dfe-ddd7-4543-8ad4-a6f4e1d4070e",
+        "type": "message",
+        "text": "are you using a statically or dynamically typed language?",
+        "user": "UBN9AFS0N",
+        "ts": "1594134327.485800",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "7f0f1c0238ec",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-07-09\/395086754178_7f0f1c0238ec02befdab_72.jpg",
+            "first_name": "Mariano",
+            "real_name": "Mariano Guerra",
+            "display_name": "",
+            "team": "T5TCAFTA9",
+            "name": "mariano",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NUlDX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "are you using a statically or dynamically typed language?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1594129616.447900",
+        "parent_user_id": "U5STGTB3J"
+    }
+]

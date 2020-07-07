@@ -1,0 +1,34 @@
+[
+    {
+        "client_msg_id": "62cb076f-caa6-4853-9e2b-29da5cbcfb27",
+        "type": "message",
+        "text": "I use the Android app sometime and it is OK for me. But I am more often on the web version on desktop.",
+        "user": "UJ6LDMMN0",
+        "ts": "1577697168.068400",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "426cd5067da7",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-04-26\/607834329346_426cd5067da7fc8c6933_72.png",
+            "first_name": "nicolas",
+            "real_name": "nicolas decoster",
+            "display_name": "ogadaki",
+            "team": "T5TCAFTA9",
+            "name": "nicolas.decoster",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1577580388.049900",
+        "parent_user_id": "UC2A2ARPT",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UC2A2ARPT"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

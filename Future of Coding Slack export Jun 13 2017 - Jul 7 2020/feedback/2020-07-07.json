@@ -1,0 +1,130 @@
+[
+    {
+        "client_msg_id": "5aab36eb-ae57-4f96-a2ad-10001e6b1fc7",
+        "type": "message",
+        "text": "Thanks <@UC2A2ARPT>! We want to extend to other languages, I'll keep you posted",
+        "user": "UPU0YJ1CM",
+        "ts": "1594122614.358900",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "b88e30c8a541",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-12-20\/870238505987_b88e30c8a541a7725a6d_72.png",
+            "first_name": "",
+            "real_name": "Maeliza",
+            "display_name": "Maeliza",
+            "team": "T5TCAFTA9",
+            "name": "maeliza.seymour",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tHVQU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Thanks "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "UC2A2ARPT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "! We want to extend to other languages, I'll keep you posted"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1594088851.356600",
+        "parent_user_id": "UPU0YJ1CM"
+    },
+    {
+        "client_msg_id": "c41d0864-45e0-43be-92a3-4640939cd9db",
+        "type": "message",
+        "text": "This is an interesting project! I've been hoping to see more useful DL model-based programming assistance. How's the accuracy at this stage?",
+        "user": "U013ZLJARC7",
+        "ts": "1594127120.359300",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "gf4ae9e5b293",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f4ae9e5b29386489b18b3bc6b1f41a22.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-72.png",
+            "first_name": "",
+            "real_name": "Jack Rusher",
+            "display_name": "Jack Rusher",
+            "team": "T5TCAFTA9",
+            "name": "jack529",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "48+w",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "This is an interesting project! I've been hoping to see more useful DL model-based programming assistance. How's the accuracy at this stage?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1594088851.356600",
+        "parent_user_id": "UPU0YJ1CM"
+    },
+    {
+        "client_msg_id": "6f9ed5c2-266e-4d78-98e6-ceae24a7650a",
+        "type": "message",
+        "text": "Hi, Thanks for the feedback. We also believe the same. That is why we are building it. In a synthetic dataset (eval data) the accuracy is close to 92% however, we are preparing a better data set at the moment and we are planning to re-train on that. That will drop the accuracy I am pretty certain but will increase the generalisation power.",
+        "user": "UPVBV34EL",
+        "ts": "1594127661.359500",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "259a1e56ad2e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-10-28\/811814014976_259a1e56ad2e11fe3d56_72.jpg",
+            "first_name": "",
+            "real_name": "Shubhadeep Roychowdhury",
+            "display_name": "Shubhadeep Roychowdhury",
+            "team": "T5TCAFTA9",
+            "name": "shubhadeeproychowdhur",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "f3em",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi, Thanks for the feedback. We also believe the same. That is why we are building it. In a synthetic dataset (eval data) the accuracy is close to 92% however, we are preparing a better data set at the moment and we are planning to re-train on that. That will drop the accuracy I am pretty certain but will increase the generalisation power."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1594088851.356600",
+        "parent_user_id": "UPU0YJ1CM"
+    }
+]

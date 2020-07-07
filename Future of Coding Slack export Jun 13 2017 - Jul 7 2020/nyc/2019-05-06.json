@@ -1,0 +1,37 @@
+[
+    {
+        "client_msg_id": "dbbe9a3b-eb2b-4f95-8001-dea95a2f6943",
+        "type": "message",
+        "text": "<!channel> Looking forward to seeing you all *this Thursday at 6:30pm (time changed)*. Excited to see <@UE0ETTCG7> (<https:\/\/repla.app>) and <@UHS9K1N6A> (<http:\/\/www.hyperfiddle.net\/>) presenting their work",
+        "user": "U5TCAFTD3",
+        "ts": "1557162227.001300",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "7c31dc735c6c",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-09-11\/433781465829_7c31dc735c6c1257fe1f_72.jpg",
+            "first_name": "Steve",
+            "real_name": "Steve Krouse",
+            "display_name": "stevekrouse",
+            "team": "T5TCAFTA9",
+            "name": "stevekrouse",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U5TCAFTD3",
+            "ts": "1557162936.000000"
+        },
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "UFPPABQ7P",
+                    "UE0ETTCG7"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]

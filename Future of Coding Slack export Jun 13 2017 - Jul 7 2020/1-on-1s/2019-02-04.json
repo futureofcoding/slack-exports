@@ -1,0 +1,78 @@
+[
+    {
+        "client_msg_id": "ccbac6a2-906e-4bdc-ab09-af6bce93b165",
+        "type": "message",
+        "text": "Enjoyed my first 1-on-1, good idea <@U5TCAFTD3>!",
+        "user": "UEGFXUK3M",
+        "ts": "1549301545.000300",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "bbd74d10a2d2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-24\/1108683470016_bbd74d10a2d2a0dbb156_72.jpg",
+            "first_name": "Jack",
+            "real_name": "Jack",
+            "display_name": "jarm",
+            "team": "T5TCAFTA9",
+            "name": "jack",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1549301545.000300",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1549303323.000400",
+        "reply_users": [
+            "U5TCAFTD3"
+        ],
+        "replies": [
+            {
+                "user": "U5TCAFTD3",
+                "ts": "1549303323.000400"
+            }
+        ],
+        "subscribed": true,
+        "last_read": "1549303323.000400"
+    },
+    {
+        "client_msg_id": "b72dc361-c051-4568-bc3a-cacda4ca015a",
+        "type": "message",
+        "text": "Glad to hear it! Credit for the idea goes to <@UAL7940NM> <@U85MWBKEY> and <@UDJ8A6RNH> ",
+        "user": "U5TCAFTD3",
+        "ts": "1549303323.000400",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "7c31dc735c6c",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-09-11\/433781465829_7c31dc735c6c1257fe1f_72.jpg",
+            "first_name": "Steve",
+            "real_name": "Steve Krouse",
+            "display_name": "stevekrouse",
+            "team": "T5TCAFTA9",
+            "name": "stevekrouse",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1549301545.000300",
+        "parent_user_id": "UEGFXUK3M",
+        "reactions": [
+            {
+                "name": "clap",
+                "users": [
+                    "UEGFXUK3M"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1549303326.000700",
+        "user": "UDJ8A6RNH",
+        "text": "<@UDJ8A6RNH> has joined the channel",
+        "inviter": "U5TCAFTD3"
+    }
+]

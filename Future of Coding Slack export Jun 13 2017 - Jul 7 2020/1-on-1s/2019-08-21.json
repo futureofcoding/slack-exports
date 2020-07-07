@@ -1,0 +1,51 @@
+[
+    {
+        "bot_id": "BFQHW0L6Q",
+        "type": "message",
+        "text": ":wave: Hey everyone! I've got some fresh Donut stats for you!",
+        "user": "UFQ0XSFH6",
+        "ts": "1566378067.001600",
+        "team": "T5TCAFTA9",
+        "bot_profile": {
+            "id": "BFQHW0L6Q",
+            "deleted": true,
+            "name": "Donut",
+            "updated": 1583244157,
+            "app_id": "A11MJ51SR",
+            "icons": {
+                "image_36": "https:\/\/slack-files2.s3-us-west-2.amazonaws.com\/avatars\/2017-09-07\/238810648614_7050c90574e7f953aa42_36.png",
+                "image_48": "https:\/\/slack-files2.s3-us-west-2.amazonaws.com\/avatars\/2017-09-07\/238810648614_7050c90574e7f953aa42_48.png",
+                "image_72": "https:\/\/slack-files2.s3-us-west-2.amazonaws.com\/avatars\/2017-09-07\/238810648614_7050c90574e7f953aa42_72.png"
+            },
+            "team_id": "T5TCAFTA9"
+        },
+        "attachments": [
+            {
+                "text": "Congratulations to the *2* groups who met from the last round of Donut pairings!\n\nThat's *13%* of the *15* intros made.",
+                "title": ":tada::doughnut:",
+                "id": 1,
+                "color": "7F50FF",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "fallback": ":tada::doughnut:"
+            },
+            {
+                "text": "Can you get to *100%*? Be a great Donut buddy this round and find out!",
+                "id": 2,
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "fallback": "Can you get to *100%*? Be a great Donut buddy this round and find out!"
+            },
+            {
+                "text": "<http:\/\/bit.ly\/2J05pFh|View more detailed stats in the Reporting Dashboard →>",
+                "id": 3,
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "fallback": "<http:\/\/bit.ly\/2J05pFh|View more detailed stats in the Reporting Dashboard →>"
+            }
+        ]
+    }
+]

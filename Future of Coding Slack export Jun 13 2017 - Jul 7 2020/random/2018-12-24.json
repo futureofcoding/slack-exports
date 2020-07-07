@@ -1,0 +1,66 @@
+[
+    {
+        "client_msg_id": "3E5D87CE-7A14-401E-9B21-CA2E9B0E6DED",
+        "type": "message",
+        "text": "Ultimately I’m looking for some combination of good enough usability that adding notes and annotations from phone or desktop feels relatively frictionless, combined with a plain enough data format that I can believe that what I’m doing will still be decipherable in another 20 years.\n\nApple Notes and things like MarginNote are very powerful and usable, but being based on SQLite and iCloud make data portability more complicated. Notebooks is a little jankier but right now I trust raw files (including metadata in parallel plist files) to be easier to decipher in the future.\n\nThese concerns are no longer theoretical for me; I’ve recently been able to recover messages and attachments from 15 years ago because I had dumped them to plain text files",
+        "user": "UDJ2TKB99",
+        "ts": "1545659030.033700",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "g3553423c24b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/53553423c24bc737c5d25f9363af2f5f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png",
+            "first_name": "",
+            "real_name": "Joe Hughes",
+            "display_name": "",
+            "team": "T5TCAFTA9",
+            "name": "joe",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1545306355.053200",
+        "parent_user_id": "U5STGTB3J",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UD43R8ZFV"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5B82BB56-2D02-4E9C-ADAE-603954669356",
+        "type": "message",
+        "text": "If only someone had told me that _Seeing like a State_ was about building data models!",
+        "user": "UDJ2TKB99",
+        "ts": "1545659090.034900",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "g3553423c24b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/53553423c24bc737c5d25f9363af2f5f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png",
+            "first_name": "",
+            "real_name": "Joe Hughes",
+            "display_name": "",
+            "team": "T5TCAFTA9",
+            "name": "joe",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1545434297.012700",
+        "parent_user_id": "UCUSW7WVD",
+        "reactions": [
+            {
+                "name": "bulb",
+                "users": [
+                    "UCUSW7WVD"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

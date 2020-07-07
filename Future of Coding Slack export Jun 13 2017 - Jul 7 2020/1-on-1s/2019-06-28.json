@@ -1,0 +1,65 @@
+[
+    {
+        "client_msg_id": "29614d01-882d-42d6-a854-2bfa73b94e7a",
+        "type": "message",
+        "text": "Is there a way to remove inactive users from this channel? They’re starting to waste my time.",
+        "user": "UD3AK9JRF",
+        "ts": "1561745472.001500",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "g35dfa49055c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/235dfa49055c0a25f2ccfc667a7a6b77.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+            "first_name": "",
+            "real_name": "Peter Abrahamsen",
+            "display_name": "",
+            "team": "T5TCAFTA9",
+            "name": "rainhead",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "fbd43a63-b827-4467-bdc6-27424e1a0f70",
+        "type": "message",
+        "text": "Man that sucks. :confused: I've actually gotten a 100% hit rate so far, so maybe just a bad roll?",
+        "user": "UFS53UWE5",
+        "ts": "1561752140.001900",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "4e472ce26f4f",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-06-19\/659226130515_4e472ce26f4fdcf0b051_72.jpg",
+            "first_name": "John",
+            "real_name": "John Austin",
+            "display_name": "",
+            "team": "T5TCAFTA9",
+            "name": "kleptine",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "72d34f6b-7771-492a-ba3e-d598cbfe29b8",
+        "type": "message",
+        "text": "Maybe so. It’s been very nice when it works.",
+        "user": "UD3AK9JRF",
+        "ts": "1561752656.002200",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "g35dfa49055c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/235dfa49055c0a25f2ccfc667a7a6b77.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+            "first_name": "",
+            "real_name": "Peter Abrahamsen",
+            "display_name": "",
+            "team": "T5TCAFTA9",
+            "name": "rainhead",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    }
+]

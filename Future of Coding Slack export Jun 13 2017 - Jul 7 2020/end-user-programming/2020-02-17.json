@@ -1,0 +1,59 @@
+[
+    {
+        "client_msg_id": "bd1f3b7f-baa0-46db-9f84-a424a6953b02",
+        "type": "message",
+        "text": "A nice example of re-editable (as opposed to reusable) software as explained by Donald Knuth: <https:\/\/www.informit.com\/articles\/article.aspx?p=1193856>",
+        "user": "UJBAJNFLK",
+        "ts": "1581930370.028100",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "g05e4cf66ef1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/305e4cf66ef1179f7e95981b1520ba1a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-72.png",
+            "first_name": "Konrad",
+            "real_name": "Konrad Hinsen",
+            "display_name": "Konrad Hinsen",
+            "team": "T5TCAFTA9",
+            "name": "konrad.hinsen",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "title": "Interview with Donald Knuth | Interview with Donald Knuth | InformIT",
+                "title_link": "https:\/\/www.informit.com\/articles\/article.aspx?p=1193856",
+                "text": "Andrew Binstock and Donald Knuth converse on the success of open source, the problem with multicore architecture, the disappointing lack of interest in literate programming, the menace of reusable code, and that urban legend about winning a programming contest with a single compilation.",
+                "fallback": "Interview with Donald Knuth | Interview with Donald Knuth | InformIT",
+                "from_url": "https:\/\/www.informit.com\/articles\/article.aspx?p=1193856",
+                "service_icon": "https:\/\/www.informit.com\/display\/InformIT\/images\/objects\/touch_icons\/apple-touch-icon-144x144-precomposed.png",
+                "service_name": "informit.com",
+                "id": 1,
+                "original_url": "https:\/\/www.informit.com\/articles\/article.aspx?p=1193856"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Ptwc",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "A nice example of re-editable (as opposed to reusable) software as explained by Donald Knuth: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.informit.com\/articles\/article.aspx?p=1193856"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1581750492.026200",
+        "parent_user_id": "UH85W1ML1"
+    }
+]

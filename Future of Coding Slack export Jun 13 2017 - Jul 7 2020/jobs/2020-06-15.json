@@ -1,0 +1,159 @@
+[
+    {
+        "client_msg_id": "8674b673-dd64-40c6-91f3-5a62b68cba85",
+        "type": "message",
+        "text": "Sorry, meant to post this in general. ~Why do you guys think COM interop in Windows has fallen out of vogue? At the surface, it seems like an awesome way to get apps working together, but I haven't seen it used in a very long time.~",
+        "user": "UJK8MKYAZ",
+        "ts": "1592235601.012500",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "g191fa9e3260",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6191fa9e32605141275a68a8bb5f04fa.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+            "first_name": "",
+            "real_name": "Daniel Hines",
+            "display_name": "Daniel Hines",
+            "team": "T5TCAFTA9",
+            "name": "d4hines",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJK8MKYAZ",
+            "ts": "1592242409.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6Mj=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Sorry, meant to post this in general. "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Why do you guys think COM interop in Windows has fallen out of vogue? At the surface, it seems like an awesome way to get apps working together, but I haven't seen it used in a very long time.",
+                                "style": {
+                                    "strike": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1592235601.012500",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1592242377.012800",
+        "reply_users": [
+            "UFPPABQ7P",
+            "UJK8MKYAZ"
+        ],
+        "replies": [
+            {
+                "user": "UFPPABQ7P",
+                "ts": "1592239658.012600"
+            },
+            {
+                "user": "UJK8MKYAZ",
+                "ts": "1592242377.012800"
+            }
+        ],
+        "subscribed": false
+    },
+    {
+        "client_msg_id": "03b09bbe-370e-40a7-9bc4-58c6956a3672",
+        "type": "message",
+        "text": "I had a friend who showed me COM objects just a few months ago, they were using them via Laravel. They did seem like they worked really well for his use case (using some PDF creation tools written in C# or Java or something)",
+        "user": "UFPPABQ7P",
+        "ts": "1592239658.012600",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "cb9d79e2bebc",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-09\/631538186901_cb9d79e2bebc09100b3f_72.jpg",
+            "first_name": "Cole",
+            "real_name": "Cole Lawrence",
+            "display_name": "Cole",
+            "team": "T5TCAFTA9",
+            "name": "colelawr",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xD1T4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I had a friend who showed me COM objects just a few months ago, they were using them via Laravel. They did seem like they worked really well for his use case (using some PDF creation tools written in C# or Java or something)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1592235601.012500",
+        "parent_user_id": "UJK8MKYAZ"
+    },
+    {
+        "client_msg_id": "46c941c1-90dc-46b8-8768-2b4f68d517df",
+        "type": "message",
+        "text": "Shoot, I meant to post this in general",
+        "user": "UJK8MKYAZ",
+        "ts": "1592242377.012800",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "g191fa9e3260",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6191fa9e32605141275a68a8bb5f04fa.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+            "first_name": "",
+            "real_name": "Daniel Hines",
+            "display_name": "Daniel Hines",
+            "team": "T5TCAFTA9",
+            "name": "d4hines",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "s=xuD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Shoot, I meant to post this in general"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1592235601.012500",
+        "parent_user_id": "UJK8MKYAZ",
+        "reactions": [
+            {
+                "name": "sweat_smile",
+                "users": [
+                    "UFPPABQ7P"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

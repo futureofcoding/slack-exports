@@ -1,0 +1,46 @@
+[
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1548991353.000500",
+        "user": "U85MWBKEY",
+        "text": "<@U85MWBKEY> has joined the channel"
+    },
+    {
+        "client_msg_id": "7983204D-62DB-44A9-8F33-538BC258CCE6",
+        "type": "message",
+        "text": "This is so cool! Thanks for giving it a try Steve",
+        "user": "U85MWBKEY",
+        "ts": "1548991377.001000",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "88eacb7e65ed",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-07-08\/681438296241_88eacb7e65edebc579ab_72.jpg",
+            "first_name": "Aidan",
+            "real_name": "Aidan Cunniffe",
+            "display_name": "",
+            "team": "T5TCAFTA9",
+            "name": "acunniffe",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "reactions": [
+            {
+                "name": "heart",
+                "users": [
+                    "U5TCAFTD3"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1548996094.001200",
+        "user": "UFMD4TQMD",
+        "text": "<@UFMD4TQMD> has joined the channel"
+    }
+]

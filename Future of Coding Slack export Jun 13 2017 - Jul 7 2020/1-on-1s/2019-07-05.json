@@ -1,0 +1,92 @@
+[
+    {
+        "client_msg_id": "9aa68430-752f-406c-bfe8-3bb29b9f4730",
+        "type": "message",
+        "text": "I'm looking for a partner!",
+        "user": "UFPPABQ7P",
+        "ts": "1562341161.007200",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "cb9d79e2bebc",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-09\/631538186901_cb9d79e2bebc09100b3f_72.jpg",
+            "first_name": "Cole",
+            "real_name": "Cole Lawrence",
+            "display_name": "Cole",
+            "team": "T5TCAFTA9",
+            "name": "colelawr",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "bca93f50-c891-40c4-bd17-da9179b7120e",
+        "type": "message",
+        "text": "I was paired with <@UF5PAGQQ4>, but I didn't see a response :shrug:",
+        "user": "UFPPABQ7P",
+        "ts": "1562341236.007300",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "cb9d79e2bebc",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-09\/631538186901_cb9d79e2bebc09100b3f_72.jpg",
+            "first_name": "Cole",
+            "real_name": "Cole Lawrence",
+            "display_name": "Cole",
+            "team": "T5TCAFTA9",
+            "name": "colelawr",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1562081383.006200",
+        "parent_user_id": "U5TCAFTD3"
+    },
+    {
+        "client_msg_id": "71e84e18-98f4-48eb-9ff9-baba1a78b0c0",
+        "type": "message",
+        "text": "apologies, I thought I had time for 1-to-1s, but it turns out I’m too busy these days. Sorry, I’ll see myself out :slightly_smiling_face:",
+        "user": "UF5PAGQQ4",
+        "ts": "1562344878.007500",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "g99a3fab7a1a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/299a3fab7a1a2d6644455dedae9fce0a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-72.png",
+            "first_name": "",
+            "real_name": "Stathis Sideris",
+            "display_name": "Stathis",
+            "team": "T5TCAFTA9",
+            "name": "sideris",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1562081383.006200",
+        "parent_user_id": "U5TCAFTD3"
+    },
+    {
+        "client_msg_id": "8eb35d8a-ab5b-425b-ae33-57fb21be1a34",
+        "type": "message",
+        "text": ":+1:",
+        "user": "U5TCAFTD3",
+        "ts": "1562354244.007800",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "7c31dc735c6c",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-09-11\/433781465829_7c31dc735c6c1257fe1f_72.jpg",
+            "first_name": "Steve",
+            "real_name": "Steve Krouse",
+            "display_name": "stevekrouse",
+            "team": "T5TCAFTA9",
+            "name": "stevekrouse",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1562081383.006200",
+        "parent_user_id": "U5TCAFTD3"
+    }
+]

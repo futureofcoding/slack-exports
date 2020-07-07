@@ -1,0 +1,25 @@
+[
+    {
+        "client_msg_id": "90c175cb-08c5-49cd-833d-ed0c08bb3349",
+        "type": "message",
+        "text": "I agree. They describe the new system (bzsed on channels) but don't give details on how they actually resolve the intent conflict.",
+        "user": "UJ6LDMMN0",
+        "ts": "1569150662.088100",
+        "team": "T5TCAFTA9",
+        "user_team": "T5TCAFTA9",
+        "source_team": "T5TCAFTA9",
+        "user_profile": {
+            "avatar_hash": "426cd5067da7",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-04-26\/607834329346_426cd5067da7fc8c6933_72.png",
+            "first_name": "nicolas",
+            "real_name": "nicolas decoster",
+            "display_name": "ogadaki",
+            "team": "T5TCAFTA9",
+            "name": "nicolas.decoster",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568987238.082500",
+        "parent_user_id": "UHWC9PXBL"
+    }
+]

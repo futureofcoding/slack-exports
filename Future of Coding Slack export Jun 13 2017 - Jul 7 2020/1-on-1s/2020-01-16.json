@@ -1,0 +1,66 @@
+[
+    {
+        "bot_id": "BFQHW0L6Q",
+        "type": "message",
+        "text": "*2019, Digested for Future of Coding :gift:*  Before we look ahead, let’s look back at the fun we had and connections you made in 2019.",
+        "user": "UFQ0XSFH6",
+        "ts": "1579210958.000300",
+        "team": "T5TCAFTA9",
+        "bot_profile": {
+            "id": "BFQHW0L6Q",
+            "deleted": true,
+            "name": "Donut",
+            "updated": 1583244157,
+            "app_id": "A11MJ51SR",
+            "icons": {
+                "image_36": "https:\/\/slack-files2.s3-us-west-2.amazonaws.com\/avatars\/2017-09-07\/238810648614_7050c90574e7f953aa42_36.png",
+                "image_48": "https:\/\/slack-files2.s3-us-west-2.amazonaws.com\/avatars\/2017-09-07\/238810648614_7050c90574e7f953aa42_48.png",
+                "image_72": "https:\/\/slack-files2.s3-us-west-2.amazonaws.com\/avatars\/2017-09-07\/238810648614_7050c90574e7f953aa42_72.png"
+            },
+            "team_id": "T5TCAFTA9"
+        },
+        "blocks": [
+            {
+                "type": "section",
+                "block_id": "User#1219942#digested_team",
+                "text": {
+                    "type": "mrkdwn",
+                    "text": "*2019, Digested for Future of Coding :gift:*\n\nBefore we look ahead, let’s look back at the fun we had and connections you made in 2019.",
+                    "verbatim": false
+                }
+            },
+            {
+                "type": "image",
+                "block_id": "wgWHl",
+                "image_url": "https:\/\/d2b807tps66q33.cloudfront.net\/images\/graphics\/dd-19-cover-team.png",
+                "alt_text": "digested",
+                "title": {
+                    "type": "plain_text",
+                    "text": "Digested",
+                    "emoji": true
+                },
+                "fallback": "1200x600px image",
+                "image_width": 1200,
+                "image_height": 600,
+                "image_bytes": 81057
+            },
+            {
+                "type": "actions",
+                "block_id": "User#1219942#url_button",
+                "elements": [
+                    {
+                        "type": "button",
+                        "action_id": "no_op",
+                        "text": {
+                            "type": "plain_text",
+                            "text": ":rocket: View our Donut Digest ➝ ",
+                            "emoji": true
+                        },
+                        "value": ":rocket: View our Donut Digest ➝ ",
+                        "url": "http:\/\/bit.ly\/3alRwgf"
+                    }
+                ]
+            }
+        ]
+    }
+]
